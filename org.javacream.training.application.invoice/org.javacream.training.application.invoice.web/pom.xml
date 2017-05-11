@@ -12,5 +12,10 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.javacream.training.application</groupId>
+			<artifactId>org.javacream.training.application.invoice.business</artifactId>
+		</dependency>
+
 	</dependencies>
 </project>

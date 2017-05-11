@@ -27,6 +27,22 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<dependency>
+				<groupId>org.javacream.training.application</groupId>
+				<artifactId>org.javacream.training.application.invoice.web</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.javacream.training.application</groupId>
+				<artifactId>org.javacream.training.application.invoice.business</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.javacream.training.application</groupId>
+				<artifactId>org.javacream.training.application.invoice.data</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
 </project>
